@@ -4,7 +4,7 @@ provider "github" {
 resource "github_repository" "TERRAFORM" {
   name             = "TERRAFORM"
   description      = "TERRAFORM GitHub Repository"
-  visibility       = "public"
+  visibility       = "private"
   has_issues       = true
   has_projects     = true
   has_wiki         = true

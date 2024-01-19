@@ -1,5 +1,5 @@
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "TERRAFORM" {

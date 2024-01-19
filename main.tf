@@ -1,5 +1,5 @@
 provider "github" {
-  token = var.github_token
+  token = var.SECRETS_TOKEN
 }
 resource "github_repository" "TERRAFORM" {
   name             = "TERRAFORM"

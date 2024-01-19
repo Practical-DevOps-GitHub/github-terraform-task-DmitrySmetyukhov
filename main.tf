@@ -1,7 +1,6 @@
 provider "github" {
-  token = "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"
+  token = var.github_token
 }
-
 resource "github_repository" "TERRAFORM" {
   name             = "TERRAFORM"
   description      = "TERRAFORM GitHub Repository"
